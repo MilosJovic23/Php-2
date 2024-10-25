@@ -18,7 +18,7 @@
     <title>Lesson 2 Php</title>
 </head>
 <body>
-<p><?php echo $ime?></p>
+<h1><?php echo $ime?></h1>
 <i><?php echo $godine?></i>
 </body>
 </html>
