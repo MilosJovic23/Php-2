@@ -11,8 +11,13 @@
     $ucenici = ["Toma","Marko","Ivan","Jovan"];
 
 
-    $ucenici[2]="test";
-    echo $ucenici[2];
+
+
+    $cars = ["BMW","Audi","Mercedes"];
+
+    array_push($cars,"Zastava");
+
+    echo $cars[3].'<br>' . $cars[2].'<br>' .$cars[1].'<br>' .$cars[0];
 
 
 
