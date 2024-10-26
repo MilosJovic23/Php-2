@@ -24,5 +24,20 @@
 
     echo $patike[1];
 
+    $products = ["Gpu","Cpu","RAM"];
 
-    ?>
+    var_dump($products);
+    array_push($products,"pc","keyboard","Monitor");
+
+    var_dump($products);
+
+    $products[1]="SSD";
+    var_dump($products);
+
+    $newProducts = ["Mouse","MousePad","PowerSupply"];
+
+    $AllProducts = array_merge($products,$newProducts);
+
+    var_dump($AllProducts);
+
+?>
